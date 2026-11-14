@@ -7,7 +7,7 @@
 // 2) Change PAGES_ORIGIN below to YOUR Pages project address (no slash at the end).
 // 3) Add a Worker Route:  caregiverng.com/cns_training_portal.html
 
-const PAGES_ORIGIN = "https://cns-training-portal-html.pages.dev"; // <-- change to your Pages URL
+const PAGES_ORIGIN = "https://cns-training-portal-html.pages.dev/cns_training_portal"; // <-- change to your Pages URL
 
 export default {
   async fetch(request) {
